@@ -3,9 +3,8 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Nunito", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: <weight>;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
 	font-style: normal;
 }
 
@@ -15,8 +14,8 @@
 }
 
 a {
-   text-decoration:none;
-   color: inherit;
+	text-decoration:none;
+	color: inherit;
 }
 
 #img-main {
@@ -27,16 +26,18 @@ a {
 }
 
 #nav .navbar-light .navbar-nav .nav-item .nav-link {
-    color: white;
+	color: white;
 }
 
 #landing {
 /*	background-color: #427D9D;*/
-	background-image: linear-gradient(rgba(22, 72, 99, 0.7), rgba(221, 242, 253, 0.7)), url('./images/landing-bg.jpg');
-}
+background-image: linear-gradient(rgba(22, 72, 99, 0.7), rgba(221, 242, 253, 0.7)), url('./images/landing-bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}	
 
 .text-shadow {
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 #projects {
@@ -48,18 +49,22 @@ a {
 }
 
 #projects .col-lg-3 img:hover {
-	  transform: scale(1.1);
-	  box-shadow: 10px 10px 5px black;
+	transform: scale(1.1);
+	box-shadow: 10px 10px 5px black;
 }
 
 
 #tools {
-	background-color: #9BBEC8;
+/*	background-color: #9BBEC8;*/
+background-image: linear-gradient(rgba(221, 242, 253, 0.7), rgba(22, 72, 99, 0.7)), url('./images/tools-bg.jpg');
+/*	background-position: center bottom;*/
+background-size: cover;
+
 }
 
 
 .tool-bg {
-	background-color: rgba(22, 72, 99, 0.5);
+/*	background-color: rgba(22, 72, 99, 0.7);*/
 }
 
 #contact {
@@ -76,6 +81,15 @@ a {
 .contact-bg {
 	background-color: rgba(22, 72, 99, 0.5);
 
+}
+
+#contact-sm-section{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./images/mansion.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
 }
 
 .contact-bg-img {
