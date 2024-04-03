@@ -1,0 +1,92 @@
+/*CSS RESET*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Nunito", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+#nav, footer{
+	background-color: #164863;
+
+}
+
+a {
+   text-decoration:none;
+   color: inherit;
+}
+
+#img-main {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#nav .navbar-light .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+#landing {
+/*	background-color: #427D9D;*/
+	background-image: linear-gradient(rgba(22, 72, 99, 0.7), rgba(221, 242, 253, 0.7)), url('./images/landing-bg.jpg');
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#projects {
+	background-color: #427D9D;
+}
+
+#projects .col-lg-3 img {
+	transition: all .3s ease;
+}
+
+#projects .col-lg-3 img:hover {
+	  transform: scale(1.1);
+	  box-shadow: 10px 10px 5px black;
+}
+
+
+#tools {
+	background-color: #9BBEC8;
+}
+
+
+.tool-bg {
+	background-color: rgba(22, 72, 99, 0.5);
+}
+
+#contact {
+	background-color: #DDF2FD;
+}
+
+#contact img{
+	background-position: right;
+	background-size: cover;
+	width: auto;
+	height: auto;
+}
+
+.contact-bg {
+	background-color: rgba(22, 72, 99, 0.5);
+
+}
+
+.contact-bg-img {
+	background-image: url('./images/mansion.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+
+footer div {
+	color: white;
+}
